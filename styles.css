@@ -35,12 +35,13 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .education, .skills, .contact, footer{
+.about, .education, .skills, .awards, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .education .serv-content,
 .skills .skills-content,
+.awards .awards-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -381,6 +382,35 @@ section .title::after{
 }
 .skills-content .right .mysql::before{
     width: 60%;
+}
+
+/* awards section styling */
+
+.awards{
+    background: #111;
+}
+.awards .title{
+    color: #fff;
+}
+.awards .title::before{
+    background: #fff;
+}
+.awards .title::after{
+    background: #111;
+    content: "certifications";
+}
+.awards li{
+    line-height: 1.7;
+    padding-bottom: 30px;
+}
+.fa-trophy{
+    color: #ffd700;
+}
+.fa-graduation-cap{
+    color: #ff0e0e;
+}
+.awards p{
+    color: #fff;
 }
 
 /* contact section styling */
