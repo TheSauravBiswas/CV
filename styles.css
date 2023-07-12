@@ -41,7 +41,7 @@ section{
 .about .about-content,
 .education .serv-content,
 .skills .skills-content,
-.awards .awards-content,
+.awards, .awards-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
